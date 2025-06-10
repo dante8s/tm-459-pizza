@@ -54,7 +54,7 @@ include('partials/header.php');
         </div>
     </section>
 
-    <!-- GALLERY -->
+
     <!-- start gallery -->
     <section id="gallery" class="templatemo-section templatemo-light-gray-bg">
         <div class="container">
