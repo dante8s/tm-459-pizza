@@ -8,7 +8,13 @@ body
   font-family: 'Signika', sans-serif;
   font-weight: 400;
   position: relative;
+  
 }
+
+#order {
+  margin-top: 300px; /* щоб опустити блок вниз і не перекривати навбар */
+}
+
 
 h1,h2, h3, h4,
 .navbar-default .navbar-nav li a,

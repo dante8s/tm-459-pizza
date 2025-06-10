@@ -1,0 +1,16 @@
+#order .form-group {
+    margin-bottom: 20px;
+}
+
+#order label {
+    font-weight: bold;
+}
+
+#order .checkbox label {
+    font-weight: normal;
+}
+
+#order input[type="number"] {
+    margin-top: 5px;
+    max-width: 100px;
+}

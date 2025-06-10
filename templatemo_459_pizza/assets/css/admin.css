@@ -1,0 +1,114 @@
+.admin-link {
+    background: #e74c3c;
+    color: white !important;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px 15px !important;
+    transition: all 0.3s;
+}
+
+.admin-link:hover {
+    background: #c0392b;
+    transform: translateY(-2px);
+}
+/* Основний контейнер */
+.admin-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Бічна панель */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    z-index: 1000;
+}
+
+.sidebar-header {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #34495e;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-nav li a {
+    color: #ecf0f1;
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active a {
+    background: #34495e;
+    color: #fff;
+}
+
+.sidebar-nav i {
+    margin-right: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.admin-content {
+    margin-left: 250px;
+    padding: 20px;
+    min-height: 100vh;
+
+    background: #f8f9fa;
+}
+
+  .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .home-btn {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #6c757d;
+        }
+        .home-btn:hover {
+            color: #495057;
+            text-decoration: none;
+        }
+
+
+        
+ body { background: #f8f9fa; }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .home-btn {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            color: #6c757d;
+        }
+        .home-btn:hover {
+            color: #495057;
+            text-decoration: none;
+        }        
