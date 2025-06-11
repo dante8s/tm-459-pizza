@@ -26,7 +26,7 @@ class Contact {
         return $stmt->execute();
     }
 
-ї
+
     public function getAll() {
         $query = "SELECT * FROM contacts ORDER BY created_at DESC";
         $stmt = $this->db->query($query);
